@@ -1,0 +1,6 @@
+*~
+/.nms_dialyzer.plt
+/app.config
+/deps
+/log
+*.bmp

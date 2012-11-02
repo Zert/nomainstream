@@ -1,0 +1,15 @@
+{application, nms,
+ [
+  {description, "No mainstream"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  lager,
+                  jiffy,
+                  ibrowse
+                 ]},
+  {mod, { nms_app, []}},
+  {env, []}
+ ]}.
